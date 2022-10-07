@@ -15,8 +15,6 @@ Console.WriteLine("-------------------");
 // заданного числа или сообщает, что третьей цифры нет.
 void Zadacha13()
 {
-    // int number = random.Next(1, 100);
-    // Console.WriteLine(number);
      Console.WriteLine("Enter a more than two-digit number");
     int number = Convert.ToInt32(Console.ReadLine());
     if (Math.Abs(number)/100<1)
